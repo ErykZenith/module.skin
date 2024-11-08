@@ -11,6 +11,13 @@ Fivem Skin Module
 - **Lightweight Data Handling:** Optimized to handle small data packets, ensuring efficient performance and reduced resource usage.
 
 ### Core Functions
+- **game_character:create(ped)**
+
+`Creates a new instance of the game_character class for the specified ped.
+Parameters:
+ped (number): The identifier for the player's ped (character entity).
+Returns: A new instance of game_character with the given ped and initialized character data.`
+
 - **game_character:getClothes()**
 
 `Retrieves the current clothes data for the character.
