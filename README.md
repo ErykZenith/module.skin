@@ -103,21 +103,18 @@ Returns: A mapped table with IDs as keys and original values, or an error if typ
 - **game_character:resetPlayerModel(gender)**
 
 `Resets the player's model based on the specified gender. Parameters:
-
 gender (number): Accepts 0 or 1 (0 for male, 1 for female).
 Returns: Sets the player model corresponding to the gender if found; returns an error if the gender is invalid or not found in the template.`
 
 - **game_character:setPlayerModel(model)**
 
 `Sets the player's model to the specified model name or hash. Parameters:
-
 model (string | number): Accepts either the model name as a string or a model hash as a number.
 Returns: true if the model is successfully set; returns an error if the model is invalid or fails to load.`
 
 - **game_character:getModel()**
 
 `Retrieves the model of the current player. Parameters: None
-
 Returns: The model identifier as stored in the template if found, otherwise the model’s hash.`
 
 - **game_character:exportCharacter()**
