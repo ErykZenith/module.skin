@@ -1,9 +1,11 @@
-client_scripts({
+client_scripts{
 	"function.lua",
 	"index.lua",
-	"components/*.lua",
-	"cl_example.lua"
-})
+	"components/*.lua"
+}
+files {
+    "init.lua",
+}
 fx_version("cerulean")
 games {"gta5"}
 description "Create By.Eryk Zenith"
